@@ -1,15 +1,14 @@
-﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.Mars__Onboard__Task-1-2 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mars_Onboard_Task-1-2/UnitTest1.cs">
-    <Files>
-      <File FileName="Mars_Onboard_Task-1-2/UnitTest1.cs" Line="1" Column="1" />
-    </Files>
+﻿<Properties StartupConfiguration="{7CA20970-2ACA-473B-9124-E378CA477D02}|Default">
+  <MonoDevelop.Ide.ItemProperties.Mars__Onboard__Task-1-2 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mars_Onboard_Task-1-2" expanded="True">
             <Node name="Mars_Onboard_Task-1-2" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
