@@ -27,8 +27,22 @@
     <None Remove="Selenium.WebDriver.ChromeDriver" />
     <None Remove="Selenium.Support" />
     <None Remove="Selenium.WebDriver" />
+    <None Remove="Steps\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
+    <Folder Include="Steps\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\EditPersonalDetails.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>EditPersonalDetails.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Features\EditPersonalDetails.feature.cs">
+      <DependentUpon>EditPersonalDetails.feature</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
