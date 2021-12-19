@@ -1,28 +1,23 @@
 ﻿<Properties StartupConfiguration="{7CA20970-2ACA-473B-9124-E378CA477D02}|Default">
   <MonoDevelop.Ide.ItemProperties.Mars__Onboard__Task-1-2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mars_Onboard_Task-1-2/Steps/AddNewDescription.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AddNewDescription/Test/AddNewDescription.cs">
     <Files>
       <File FileName="../../Projects/Mars_Project_initial/Mars_Project/Program.cs" Line="33" Column="29" />
-      <File FileName="Mars_Onboard_Task-1-2/Steps/AddNewLanguage.cs" Line="17" Column="1" />
-      <File FileName="Mars_Onboard_Task-1-2/Steps/AddNewDescription.cs" Line="20" Column="9" />
-      <File FileName="Mars_Onboard_Task-1-2/Steps/AddNewEducation.cs" Line="23" Column="13" />
-      <File FileName="AddNewDescription/Test/AddNewDescription.cs" Line="68" Column="9" />
+      <File FileName="AddNewEducation/Test/AddNewEducation.cs" Line="109" Column="101" />
+      <File FileName="AddNewDescription/Test/AddNewDescription.cs" Line="66" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mars_Onboard_Task-1-2" expanded="True">
             <Node name="AddNewDescription" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Test" expanded="True">
+                <Node name="AddNewDescription.cs" selected="True" />
               </Node>
-              <Node name="Test" expanded="True" />
             </Node>
             <Node name="Mars_Onboard_Task-1-2" expanded="True">
               <Node name="Features" expanded="True" />
-              <Node name="Steps" expanded="True">
-                <Node name="AddNewDescription.cs" selected="True" />
-              </Node>
+              <Node name="Steps" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,10 +25,11 @@
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Mars_Onboard_Task-1-2" expanded="True">
-            <Node name="AddNewDescription" expanded="True">
-              <Node name="AddNewDescription.Test" expanded="True">
-                <Node name="TheUserIsAbleToAddDescriptionToTheProfilePageFeature" expanded="True">
-                  <Node name="AddNewDescription" selected="True" />
+            <Node name="AddNewDescription" expanded="True" />
+            <Node name="AddNewEducation" expanded="True">
+              <Node name="AddNewEducation.Test" expanded="True">
+                <Node name="TheUserIsAbleToAddNewEducationToTheProfilePageFeature" expanded="True">
+                  <Node name="AddNewEducation" selected="True" />
                 </Node>
               </Node>
             </Node>

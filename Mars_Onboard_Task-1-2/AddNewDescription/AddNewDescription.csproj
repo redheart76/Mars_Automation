@@ -34,6 +34,7 @@
     <None Update="Test\AddNewDescription.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddNewDescription.feature.cs</LastGenOutput>
+      <Visible>False</Visible>
     </None>
   </ItemGroup>
   <ItemGroup>

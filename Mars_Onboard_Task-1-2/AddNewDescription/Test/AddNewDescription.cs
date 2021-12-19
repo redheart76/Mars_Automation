@@ -63,7 +63,7 @@ namespace AddNewDescription.Test
         {
             IWebElement DescriptionText = driver.FindElement(By.XPath("//*[text()='Hi, I have a bunch of skills that can be swapped with you.']"));
             Assert.IsTrue(DescriptionText.Displayed);
-            driver.Close();
+            driver.Quit();
         
         }
     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mars_Onboard_Task-1-2", "Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewDescription", "AddNewDescription\AddNewDescription.csproj", "{4301D732-9DDE-43E8-A615-DBF9D7880DDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewEducation", "AddNewEducation\AddNewEducation.csproj", "{556368B2-1DAD-4012-8939-0EB0249A6577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4301D732-9DDE-43E8-A615-DBF9D7880DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4301D732-9DDE-43E8-A615-DBF9D7880DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4301D732-9DDE-43E8-A615-DBF9D7880DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556368B2-1DAD-4012-8939-0EB0249A6577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556368B2-1DAD-4012-8939-0EB0249A6577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556368B2-1DAD-4012-8939-0EB0249A6577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556368B2-1DAD-4012-8939-0EB0249A6577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
