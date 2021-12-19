@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewDescription", "AddNew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewEducation", "AddNewEducation\AddNewEducation.csproj", "{556368B2-1DAD-4012-8939-0EB0249A6577}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewLanguage", "AddNewLanguage\AddNewLanguage.csproj", "{47C599DF-70FF-48D7-BA0A-8210DF3BD908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{556368B2-1DAD-4012-8939-0EB0249A6577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556368B2-1DAD-4012-8939-0EB0249A6577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556368B2-1DAD-4012-8939-0EB0249A6577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C599DF-70FF-48D7-BA0A-8210DF3BD908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C599DF-70FF-48D7-BA0A-8210DF3BD908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C599DF-70FF-48D7-BA0A-8210DF3BD908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C599DF-70FF-48D7-BA0A-8210DF3BD908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
