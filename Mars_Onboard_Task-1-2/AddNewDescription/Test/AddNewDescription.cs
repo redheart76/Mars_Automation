@@ -47,6 +47,7 @@ namespace AddNewDescription.Test
         public void GivenITypeInSomethingILikeToTellThePeople()
         {
             IWebElement DescriptionFeild = driver.FindElement(By.XPath("//textarea[@name='value']"));
+            DescriptionFeild.Click();
             DescriptionFeild.Clear();
             DescriptionFeild.SendKeys("Hi, I have a bunch of skills that can be swapped with you.");//Type in something I'd like to tell the people
         }
