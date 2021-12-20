@@ -40,14 +40,14 @@ namespace AddNewLanguage.Test
         {
             WebElement LanguageSection = (WebElement)driver.FindElement(By.XPath("//form[@class='ui form']/div/a[@class='item active']"));
             LanguageSection.Click();
-            Thread.Sleep(2000);
+            Thread.Sleep(2000);//Click the Language section
         }
 
         [Given(@"I click AddNew button")]
         public void GivenIClickAddNewButton()
         {
             IWebElement AddNewBTN = driver.FindElement(By.XPath("//table[@class='ui fixed table']//tr/th[3]/div")); //Click Add New button to add new language
-            AddNewBTN.Click();
+            AddNewBTN.Click();//Click the button to add new language
         }
 
         [Given(@"I type in my one of the languages that I can speak")]
@@ -79,7 +79,7 @@ namespace AddNewLanguage.Test
         {
             IWebElement LanguageText = driver.FindElement(By.XPath("//td[text()='Chinese']"));
             Assert.IsTrue(LanguageText.Displayed);
-            driver.Quit();
+            driver.Quit();//Assert the new language has been saved
         }
     }
 }

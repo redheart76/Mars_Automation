@@ -41,14 +41,14 @@ namespace AddNewEducation.Test
         public void GivenISelectEducationSection()
         {
             IWebElement EducationBTN = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[1]/a[3]"));
-            EducationBTN.Click();
+            EducationBTN.Click();//Click the Education edit button
         }
 
         [Given(@"I click AddNew button")]
         public void GivenIClickAddNewButton()
         {
             IWebElement AddNewEdu = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/table/thead/tr/th[6]/div"));
-            AddNewEdu.Click();
+            AddNewEdu.Click();//Click the button a add new education
         }
 
         [Given(@"I type in the my University name in College/University Name field")]
@@ -56,7 +56,7 @@ namespace AddNewEducation.Test
         {
             IWebElement UniName = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[1]/div[1]/input"));
             UniName.Clear();
-            UniName.SendKeys("Auckland University");
+            UniName.SendKeys("Auckland University");//Type in the name of the school
 
         }
 
@@ -66,7 +66,7 @@ namespace AddNewEducation.Test
             IWebElement CountryMenu = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[1]/div[2]/select"));
             CountryMenu.Click();
             IWebElement CountrySelection = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[1]/div[2]/select/option[102]"));
-            CountrySelection.Click();
+            CountrySelection.Click();//Select the conuntry of the school
         }
 
         [Given(@"I choose my Title from the drop down menu")]
@@ -76,7 +76,7 @@ namespace AddNewEducation.Test
             TitleMenu.Click();
             IWebElement TitleSelection = driver.FindElement(By.XPath("//select[@name='title']/option[@value='B.A']"));
             
-            TitleSelection.Click();
+            TitleSelection.Click();//Select the Title I have
         }
 
         [Given(@"I type in what kind of degree I have got in the Degree field")]
@@ -84,7 +84,7 @@ namespace AddNewEducation.Test
         {
             IWebElement DegreeType = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[2]/div[2]/input"));
             DegreeType.Clear();
-            DegreeType.SendKeys("Bachelor");
+            DegreeType.SendKeys("Bachelor");//Select the degree I have
         }
 
         [Given(@"I choose the year of graduation from drop down menu")]
@@ -93,14 +93,14 @@ namespace AddNewEducation.Test
             IWebElement YearOfEdu = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[2]/div[3]/select"));
             YearOfEdu.Click();
             IWebElement YearSelection = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[2]/div[3]/select/option[10]"));
-            YearSelection.Click();
+            YearSelection.Click();//Select the year I graduated
         }
 
         [When(@"I press Add")]
         public void WhenIPressAdd()
         {
             IWebElement EducationAddBTN = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[3]/div/input[1]"));
-            EducationAddBTN.Click();
+            EducationAddBTN.Click();//Click the Add button to save the new education
         }
 
         [Then(@"the new education will be saved")]
@@ -108,7 +108,7 @@ namespace AddNewEducation.Test
         {
             IWebElement UniNameTxt = driver.FindElement(By.XPath("//td[text()='Auckland University']"));
             Assert.IsTrue(UniNameTxt.Displayed);
-            driver.Quit();
+            driver.Quit();//Assert the new education has been saved
         }
     }
 }

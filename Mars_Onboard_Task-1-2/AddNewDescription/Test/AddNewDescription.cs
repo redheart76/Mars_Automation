@@ -40,7 +40,7 @@ namespace AddNewDescription.Test
         public void GivenIClickDescriptionEditButton()
         {
             IWebElement DescriptionEdit = driver.FindElement(By.XPath("//span[@class='button']/i"));
-            DescriptionEdit.Click();
+            DescriptionEdit.Click();//Click Description button
         }
 
         [Given(@"I type in something I like to tell the people")]
@@ -48,14 +48,14 @@ namespace AddNewDescription.Test
         {
             IWebElement DescriptionFeild = driver.FindElement(By.XPath("//textarea[@name='value']"));
             DescriptionFeild.Clear();
-            DescriptionFeild.SendKeys("Hi, I have a bunch of skills that can be swapped with you.");
+            DescriptionFeild.SendKeys("Hi, I have a bunch of skills that can be swapped with you.");//Type in something I'd like to tell the people
         }
 
         [When(@"I press Save")]
         public void WhenIPressSave()
         {
             IWebElement SaveBTN = driver.FindElement(By.XPath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/div/div/form/div/div/div[2]/button"));
-            SaveBTN.Click();
+            SaveBTN.Click();//Save the new description
         }
 
         [Then(@"the new description will be saved")]
@@ -63,7 +63,7 @@ namespace AddNewDescription.Test
         {
             IWebElement DescriptionText = driver.FindElement(By.XPath("//*[text()='Hi, I have a bunch of skills that can be swapped with you.']"));
             Assert.IsTrue(DescriptionText.Displayed);
-            driver.Quit();
+            driver.Quit();//Assert the description has been saved
         
         }
     }
